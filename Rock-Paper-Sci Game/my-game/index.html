@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome to the Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topSection">
+        <div class="heading">
+          <h1>Rock</h1>
+          <h1>Paper</h1>
+          <h1>Scissors</h1>
+        </div>
+        <div class="chance">
+          <p>Chances Left</p>
+          <h1>10</h1>
+        </div>
+      </div>
+      <div class="middleSection" id="middleSection">
+        <img id="Paper" class="option" src="./images/paper.png" alt="">
+        <img id="Rock" class="option" src="./images/rock.png" alt="">
+        <img id="Scissor" class="option" src="./images/scissor.png" alt="">
+      </div>
+      <div class="bottomSection" id="bottomSection">
+        <div class="userContainer">
+            <h1>You</h1>
+            <img id="userPicked" src="./images/paper.png" alt="" >
+        </div>
+        <div class="resultContainer">
+            <h1></h1>
+            <button id="playAgain">PLAY AGAIN!</button>
+        </div>
+        <div class="computerContainer">
+            <h1>Bot</h1>
+            <img id="computerPicked" src="./images/rock.png" alt="" >
+        </div>
+      </div>
+      <div class="showResultContainer" id="showResultContainer">
+        <div class="userScore">
+            <p>Your Score</p>
+            <h1></h1>
+        </div>
+        <div class="result">
+        <h1>You Win!</h1>
+        </div>
+        <div class="cpuScore">
+        <p>Bot Score</p>
+        <h1></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    
+    
+  </body>
+</html>

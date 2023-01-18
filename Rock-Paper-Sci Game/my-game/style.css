@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(4, 35, 64);
+}
+.topSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 40%;
+    padding: 1rem;
+    color: white;
+    margin: 2rem 0rem;
+}
+.chance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(4, 35, 64);
+}
+.chance p{
+    font-size: 1.6rem;
+}
+.chance h1{
+    font-size: 3rem;
+}
+.middleSection{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+  
+    
+}
+.middleSection img{
+    height: 35%;
+    width: 35%;
+    margin: 1rem 2rem;
+    cursor: pointer;
+    transition: .25s all ease-in-out;   
+}
+.middleSection img:hover{
+    transform: scale(1.10);
+}
+.bottomSection{
+    display:none;
+    justify-content: center;
+    align-items: center;
+
+}
+.userContainer, .resultContainer, .computerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    margin: 2rem 0rem;
+    color: white;
+}
+.userContainer img, .computerContainer img{
+    padding: 2rem 0rem;
+    height: 60% ;
+    width: 60%;
+} 
+.resultContainer h1{
+    padding: 2rem 0rem;
+}
+.resultContainer button{
+    background-color:white;
+    color: rgb(4, 35, 64);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.showResultContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: white;
+}
+.userScore, .cpuScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: rgb(4, 35, 64);
+    margin: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+ 
+
+/* Developed By Srujan Marapaka *//* Developed by Srujan Marapaka */
+/* Developed by Srujan Marapaka *//* Developed by Srujan Marapaka */
+/* Developed by Srujan Marapaka *//* Developed by Srujan Marapaka */
+/* Developed by Srujan Marapaka *//* Developed by Srujan Marapaka */
+/* Developed by Srujan Marapaka *//* Developed by Srujan Marapaka */
